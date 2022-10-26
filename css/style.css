@@ -234,10 +234,13 @@ h1, h2, h3, h4, h5,
 
 /* NavbarTop */
 .navbar-top {
-    background-color: #fff;
-    color: #333;
+  
+  background-color: rgba(23, 22, 22, 0.505);
     box-shadow: 0px 4px 8px 0px grey;
     height: 70px;
+    position: fixed;
+    width: 100%;
+   
 }
 
 .title {
@@ -267,7 +270,7 @@ h1, h2, h3, h4, h5,
 }
 
 .icon-count {
-    background-color: #ff0000;
+    background-color: #ef2121;
     color: #fff;
     float: right;
     font-size: 11px;
@@ -277,19 +280,21 @@ h1, h2, h3, h4, h5,
 }
 
 /* End */
+/* b t top */
 
 /* Sidenav */
 .sidenav {
-    background-color: #fff;
-    color: #333;
+    color: rgb(37, 28, 28);
     border-bottom-right-radius: 25px;
     height: 86%;
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    position: absolute;
+    position: fixed;
     top: 70px;
     width: 250px;
+    z-index: 1;
+    background-color: #292927a1;
 }
 
 .profile {
@@ -325,7 +330,7 @@ h1, h2, h3, h4, h5,
 }
 
 .url a {
-    color: #818181;
+    color: #aa1f1f;
     display: block;
     font-size: 20px;
     margin: 10px 0;
@@ -422,8 +427,8 @@ h1, h2, h3, h4, h5,
 
   /* styling search bar */
   .search input[type=text]{
-    width:300px;
-    height:25px;
+    width:400px;
+    height:40px;
     border-radius:25px;
     border: none;
 }
@@ -436,8 +441,8 @@ h1, h2, h3, h4, h5,
 }
      
 .search button{
-    background-color: #0074d95b;
-    color: #dbc9c95e;
+    background-color: #f3dc0aa5;
+    color: #dbc9c9;
     float: right;
     padding: 5px 10px;
     margin-right: 16px;
@@ -1439,30 +1444,32 @@ h1, h2, h3, h4, h5,
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9DBFAF;
+  color: #e26a0e;
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: #131717e8;
+  
 }
 
 .searchButton {
   width: 40px;
-  height: 36px;
+  height: 46px;
   border: 1px solid #00B4CC;
-  background: #00B4CC;
+  background: #cc2500f3;
   text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
+  color: rgba(255, 255, 255, 0.513);
+  border-radius: 0 50px 50px 0;
   cursor: pointer;
   font-size: 20px;
 }
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
+  width: 40%;
+  height: 40%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1563,7 +1570,13 @@ section {
 }
 
 /* BLOGS */
+.blog{
+  background: #f8f8f8;
+  padding: 30px 0;
+  position:center;
+  z-index: 1;
 
+}
 
 /* Wrapper */
 .icon-button {

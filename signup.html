@@ -47,10 +47,15 @@
    
 
     </div>
+    
     <!-- log in form -->
-    <div class="login-page">
-      <div class="form">
-        <form class="register-form">
+    <div class="site-blocks-cover overlay" style="background: url(./img/zeb.jpg) ;">
+      <div class="">
+        <h2 class="text-center">Sign Up</h2>
+      </div>
+    <div class="signup-page">
+      <div class="form" style="position:relative;">
+        <form class="register-form ">
           <input type="text" placeholder="name"/>
           <input type="password" placeholder="password"/>
           <input type="text" placeholder="email address"/>
@@ -58,14 +63,22 @@
      
         </form>
         <form class="login-form">
+          <label for="image">Image</label>
+          <input type="file" name="image" id="image">
           <input type="text" placeholder="email address"/>
           <input type="text" placeholder="username"/>
+
+          <label for="job">job
+          <select name="job" id="job">
+            <option value="admin">Admin</option>
+            <option value="user">User</option></label>
           <input type="password" placeholder="password"/>
           <input type="password" placeholder="confirm password"/>
           <button>create</button>
           <strong><p class="message">Alredy registered? <a href="./login.html">sign in</a></p></strong>
         </form>
       </div>
+    </div>
     </div>
 
     <!-- end of log in form -->
